@@ -622,7 +622,7 @@ body {
     margin-bottom: 8px;
 }
 
-.modal-field:last-of-type {
+.modal-form div {
     margin-bottom: 16px;
 }
 
