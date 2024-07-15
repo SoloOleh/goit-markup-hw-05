@@ -624,11 +624,11 @@ body {
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
-.modal-field.small-margin {
-    margin-bottom: 8px;
+.modal-field-last {
+    margin-bottom: 16px;
 }
 
 .modal-label {
