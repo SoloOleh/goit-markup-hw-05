@@ -615,14 +615,14 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .modal-field {
     margin-bottom: 8px;
 }
 
-.modal-form div {
+.modal-field:last-of-type {
     margin-bottom: 16px;
 }
 
@@ -733,7 +733,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
@@ -745,4 +745,8 @@ body {
 .modal-button:hover,
 .modal-button:focus {
     background-color: #404BBF;
+}
+
+.modal-form>div {
+    margin-bottom: 8px;
 }
